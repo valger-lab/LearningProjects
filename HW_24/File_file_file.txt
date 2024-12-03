@@ -1,0 +1,31 @@
+File.txt
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+USER="Valentin"
+echo"Current directory: $(pwd)"
+   0 nano
+   1 ls -la /
+   2 ls -la /tmp
+   3 df -h
+   4 df -h | head -n 3
+   5 df -h | head -n 
+   6 df -h | head -n 3
+   7 df -h | head -n 3 >> /tmp/File.txt
+   8 cd /tmp
+   9 cat File.txt
+  10 chmod 070 File.txt
+  11 ls
+  12 ls -la
+  13 touch  myfirstbashscript.sh
+  14 ls -la
+  15 chmod +x myfirstbashscript.sh
+  16 ls -la
+  17 echo 'USER="Valentin"' >> myfirstbashscript.sh 
+  18 cat myfirstbashscript.sh 
+  19 echo 'echo"Current directory: $(pwd)"' >> myfirstbashscript.sh 
+  20 cat myfirstbashscript.sh 
+  21 pwd
+  22 cat myfirstbashscript.sh >> File.txt
+  23 cat File.txt 
+  24 history >> File.txt 
